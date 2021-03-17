@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <link href="styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1>CSS Cheatsheet</h1>
+        <h2>Selectors</h2>
+        <table>
+            <thead>
+                <th>Selector</th>
+                <th>Name</th>
+                <th>Description</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <span class="code">&lt;.class&gt;</span>
+                    </td>
+                    <td>class name</td>
+                    <td>using the element's class name</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&lt;#id-name&gt;</span>
+                    </td>
+                    <td>element id</td>
+                    <td>uses the element id</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&lt;.class&gt;</span>
+                    </td>
+                    <td>class</td>
+                    <td>uses the element class name</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&lt;h1, p&gt;</span>
+                    </td>
+                    <td>multiple tags</td>
+                    <td>uses multiple tag names</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&lt;h1, .class&gt;</span>
+                    </td>
+                    <td>mixture</td>
+                    <td>mixture of selectors</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&lt;h1.class&gt;</span>
+                    </td>
+                    <td>chaining selectors</td>
+                    <td>selects h1 elements, with class of "class"</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&lt;.main-list li&gt;</span>
+                    </td>
+                    <td>nested elements</td>
+                    <td>nested "li" within .main-list</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h2>Specificity</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Order</th>
+                        <th>Name</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>id</td>
+                        <td> <span class="code">&lt;#elementId&gt;</span></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>class</td>
+                        <td> <span class="code">&lt;.className&gt;</span></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>tag</td>
+                        <td> <span class="code">&lt;h1&gt;</span></td>
+                    </tr>
+                </tbody>
+            </table>
+    </body>
+</html>
